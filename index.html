@@ -1,400 +1,360 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammad Irfan Fadhila — Flutter Developer</title>
-    <meta
-      name="description"
-      content="Flutter Developer building cooperative fintech, HRIS, and payment platforms shipped to real users across Indonesia."
-    />
-
-    Open Graph
-    <meta
-      property="og:title"
-      content="Muhammad Irfan Fadhila — Flutter Developer"
-    />
-    <meta
-      property="og:description"
-      content="Seven shipped apps. One thread: building the financial and operational tools cooperatives and field teams actually run on."
-    />
-    <meta property="og:type" content="website" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="data:," />
-  </head>
-  <body>
-    <div class="grain" aria-hidden="true"></div>
-
-    <a class="skip-link" href="#main">Skip to content</a>
-
-    <header class="site-header" id="top">
-      <div class="header-inner">
-        <a href="#top" class="mark" aria-label="Back to top">MIF</a>
-        <nav class="primary-nav" aria-label="Primary">
-          <a href="#work">Ledger</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="header-cta" href="mailto:irfanfadhila000@gmail.com"
-          >Say hello →</a
-        >
-      </div>
-    </header>
-
-    <main id="main">
-      HERO
-      <section class="hero">
-        <div class="hero-inner">
-          <p class="eyebrow">
-            <span class="eyebrow-dot"></span> Available for new builds
-          </p>
-          <h1 class="hero-title">
-            I build the apps<br />
-            cooperatives, merchants,<br />
-            and field teams <em>run on</em>.
-          </h1>
-          <p class="hero-sub">
-            Muhammad Irfan Fadhila — Flutter Developer based in Indonesia. Seven
-            products shipped to production, spanning fintech, PPOB payments,
-            HRIS, and field operations. No prototypes here — every entry below
-            is live, installable, and in someone's pocket right now.
-          </p>
-          <div class="hero-actions">
-            <a href="#work" class="btn btn-primary">View the ledger</a>
-            <a href="#about" class="btn btn-ghost">About me</a>
-          </div>
-        </div>
-        <div class="hero-stats" aria-label="Career highlights">
-          <div class="stat">
-            <span class="stat-num">7</span>
-            <span class="stat-label">Apps in production</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">5</span>
-            <span class="stat-label">On the App Store too</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">3.82</span>
-            <span class="stat-label">GPA, Informatics Eng.</span>
-          </div>
-        </div>
-      </section>
-
-      LEDGER / WORK
-      <section class="ledger-section" id="work">
-        <div class="section-head">
-          <p class="section-kicker">01 — Shipped Work</p>
-          <h2 class="section-title">The Ledger</h2>
-          <p class="section-desc">
-            Cooperative passbooks record every transaction that moves real
-            value. This one records every product I've shipped — what it does,
-            what it's built with, and where to find it.
-          </p>
-        </div>
-
-        <div class="ledger" role="table" aria-label="Shipped projects ledger">
-          <div class="ledger-row ledger-row--head" role="row">
-            <span class="col-entry">Entry</span>
-            <span class="col-detail">Description</span>
-            <span class="col-stack">Stack</span>
-            <span class="col-status">Availability</span>
-          </div>
-
-          Project rows injected here
-          <div id="ledger-body"></div>
-        </div>
-      </section>
-
-      ABOUT
-      <section class="about-section" id="about">
-        <div class="about-grid">
-          <div class="about-copy">
-            <p class="section-kicker">02 — About</p>
-            <h2 class="section-title">Why cooperative fintech, specifically</h2>
-            <p>
-              Most of what I build sits at an unglamorous intersection: people
-              who need to move money, get paid, clock in, or manage stock —
-              reliably, every day, without thinking about the app underneath it.
-              Coordinator at a cooperative checking today's PPOB transactions. A
-              field technician logging a generator reading with a geotagged
-              photo. A merchant moving a balance to their bank account before
-              close.
-            </p>
-            <p>
-              That's the work I keep returning to: modular Flutter architecture
-              that can carry marketplace, payments, attendance, and logistics in
-              a single app without collapsing under its own feature list. REST
-              APIs and Firebase wired up so the business logic — not the UI —
-              gets to be the hard part.
-            </p>
-            <p>
-              I work mainly in Flutter and Kotlin, and I'm most interested in
-              the apps that don't get to fail quietly — the ones handling
-              someone's balance, payroll, or attendance record on a given day.
-            </p>
-          </div>
-          <aside class="about-card" aria-label="Toolkit">
-            <h3>Toolkit</h3>
-            <ul class="toolkit-list">
-              <li><span>Flutter / Dart</span></li>
-              <li><span>Kotlin</span></li>
-              <li><span>REST API Integration</span></li>
-              <li><span>Firebase</span></li>
-              <li><span>Payment Gateway Integration</span></li>
-              <li><span>Maps &amp; Geolocation</span></li>
-              <li><span>State Management (Bloc/Provider)</span></li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-
-      CONTACT
-      <section class="contact-section" id="contact">
-        <div class="contact-inner">
-          <p class="section-kicker">03 — Contact</p>
-          <h2 class="contact-title">
-            Building something that needs<br />to actually work in production?
-          </h2>
-          <p class="contact-sub">
-            I read every email myself. No forms, no friction.
-          </p>
-          <div class="contact-links">
-            <a
-              href="mailto:irfanfadhila000@gmail.com"
-              class="contact-link contact-link--primary"
-            >
-              <span class="contact-link-label">Email</span>
-              <span class="contact-link-value">irfanfadhila000@gmail.com</span>
-            </a>
-            <a
-              href="https://github.com/mirfan23"
-              target="_blank"
-              rel="noopener"
-              class="contact-link"
-            >
-              <span class="contact-link-label">GitHub</span>
-              <span class="contact-link-value">github.com/mirfan23</span>
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>Muhammad Irfan Fadhila — Flutter Developer.</p>
-      <p class="footer-meta">Built &amp; deployed via GitHub Pages.</p>
-    </footer>
-
-    <script src="js/projects.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M. Irfan - Portfolio</title>
+    <title>Muhammad Irfan Fadhila - Portfolio & Resume</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans">
+<body class="bg-gray-900 text-gray-100 font-sans leading-relaxed">
 
     <!-- Header / Nav -->
-    <nav class="p-5 max-w-5xl mx-auto flex justify-between items-center">
+    <nav class="p-5 max-w-5xl mx-auto flex flex-wrap justify-between items-center gap-4 sticky top-0 bg-gray-900/90 backdrop-blur-sm z-50 border-b border-gray-800">
         <h1 class="text-xl font-bold tracking-wider text-indigo-400">MIRFAN23.</h1>
-        <div class="flex gap-4 text-xl">
-            <a href="https://github.com/mirfan23" target="_blank" class="hover:text-indigo-400 transition"><i class="fab fa-github"></i></a>
+        <div class="flex gap-4 md:gap-6 text-sm font-medium">
+            <a href="#resume" class="hover:text-indigo-400 transition">Resume</a>
+            <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+            <a href="#pro-projects" class="hover:text-indigo-400 transition">Projects</a>
+            <a href="https://github.com/mirfan23" target="_blank" class="text-lg hover:text-indigo-400 transition"><i class="fab fa-github"></i></a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="max-w-5xl mx-auto px-5 py-16 flex flex-col md:flex-row items-center justify-between gap-10">
-        <div class="space-y-4 max-w-xl">
-            <h2 class="text-4xl md:text-5xl font-extrabold text-white">Halo, Saya <span class="text-indigo-400">M. Irfan</span></h2>
-            <p class="text-gray-400 text-lg">Mobile Application Developer yang berfokus pada ekosistem Flutter. Berpengalaman dalam membangun aplikasi berskala besar (*Super App*), sistem HRIS, platform PPOB, fintech, hingga manajemen merchant.</p>
-            <div class="pt-4 flex gap-4">
-                <a href="#pro-projects" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-lg transition shadow-lg">Proyek Profesional</a>
-                <a href="#github-projects" class="border border-gray-700 hover:border-indigo-500 text-gray-300 font-medium px-6 py-3 rounded-lg transition">Open Source</a>
+    <!-- Hero / Summary Section -->
+    <section class="max-w-5xl mx-auto px-5 py-16 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+        <div class="space-y-5 max-w-2xl">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white leading-tight">Muhammad Irfan Fadhila</h2>
+            <h3 class="text-xl text-indigo-400 font-semibold">Flutter Mobile Developer</h3>
+            <p class="text-gray-400 text-lg leading-relaxed">
+                Mobile Developer with hands-on experience in building enterprise-scale Flutter applications, including fintech ecosystems, PPOB platforms, HRIS systems, and digital cooperative super apps. Skilled in REST API integration, Firebase services, state management, payment workflows, geolocation systems, and scalable mobile architecture. Experienced in developing complex business workflows and delivering performant, user-focused mobile applications.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-4 text-sm">
+                <a href="mailto:irfanfadhilaooo@gmail.com" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg transition border border-gray-700"><i class="fas fa-envelope text-indigo-400"></i> Email</a>
+                <a href="tel:+6282380599958" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg transition border border-gray-700"><i class="fas fa-phone text-indigo-400"></i> +62 82380599958</a>
+                <a href="#resume" class="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded-lg text-white transition font-semibold"><i class="fas fa-file-alt"></i> Lihat Resume</a>
             </div>
         </div>
-        <!-- Profile Pic & Stats -->
-        <div id="github-profile" class="bg-gray-800 p-6 rounded-2xl border border-gray-700 text-center w-full md:w-80 shadow-xl">
-            <img id="avatar" class="w-32 h-32 rounded-full mx-auto border-4 border-indigo-500 mb-4" src="https://github.com/mirfan23.png" alt="Avatar">
-            <h3 class="text-xl font-bold" id="name">M. Irfan</h3>
-            <p class="text-indigo-400 text-sm mb-4" id="bio">Flutter Developer</p>
-            <div class="grid grid-cols-2 gap-2 text-sm bg-gray-900 p-3 rounded-lg">
-                <div><span class="block font-bold text-indigo-400" id="repo-count">0</span> Repositori</div>
-                <div><span class="block font-bold text-indigo-400" id="followers">0</span> Followers</div>
-            </div>
+        <!-- Profile Pic -->
+        <div class="w-40 h-40 md:w-64 md:h-64 flex-shrink-0">
+            <img class="w-full h-full rounded-full object-cover border-4 border-indigo-500 shadow-xl shadow-indigo-500/20" src="https://github.com/mirfan23.png" alt="Avatar Muhammad Irfan Fadhila">
         </div>
     </section>
 
-    <!-- Professional Projects Section (Private/Corporate) -->
-    <section id="pro-projects" class="max-w-5xl mx-auto px-5 py-12 border-t border-gray-800">
-        <div class="mb-10">
-            <h3 class="text-3xl font-bold text-white border-b-2 border-indigo-500 pb-2 inline-block">Featured Professional Projects</h3>
-            <p class="text-gray-400 mt-2 text-sm">Aplikasi produksi berskala besar yang saya kembangkan menggunakan Flutter (Repositori privat perusahaan).</p>
+    <!-- Career History & Education (Resume Section) -->
+    <section id="resume" class="bg-gray-850 py-16 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Experience -->
+            <div>
+                <div class="flex items-center gap-3 mb-8">
+                    <i class="fas fa-briefcase text-2xl text-indigo-400"></i>
+                    <h3 class="text-2xl font-bold text-white">Career History</h3>
+                </div>
+                
+                <div class="space-y-8 relative before:absolute before:inset-0 before:ml-2 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-indigo-500 before:via-gray-700 before:to-transparent">
+                    
+                    <!-- Kisel Group -->
+                    <div class="relative pl-8">
+                        <div class="absolute left-0 top-1 w-4 h-4 bg-gray-900 border-2 border-indigo-500 rounded-full"></div>
+                        <h4 class="text-lg font-bold text-white">Mobile Developer Staff</h4>
+                        <p class="text-indigo-400 text-sm font-medium mb-1">Kisel Group | 07/2024 - Present</p>
+                        <ul class="text-sm text-gray-400 space-y-2 list-disc list-inside mt-3">
+                            <li>Developed enterprise-scale mobile applications using Flutter for fintech, HRIS, PPOB, and cooperative ecosystems.</li>
+                            <li>Integrated RESTful APIs, Firebase services, payment workflows, and banking-related transaction systems.</li>
+                            <li>Implemented scalable state management using Provider architecture.</li>
+                            <li>Built responsive and reusable UI components based on complex business requirements.</li>
+                            <li>Collaborated with backend, QA, and UI/UX teams in agile development workflows.</li>
+                            <li>Maintained application stability through bug fixing, optimization, and production support.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Arkatama -->
+                    <div class="relative pl-8">
+                        <div class="absolute left-0 top-1 w-4 h-4 bg-gray-900 border-2 border-gray-600 rounded-full"></div>
+                        <h4 class="text-lg font-bold text-white">Mobile Developer Intern</h4>
+                        <p class="text-gray-400 text-sm font-medium mb-1">PT Arkatama Multi Solusindo | 02/2022 - 07/2022</p>
+                        <ul class="text-sm text-gray-400 space-y-2 list-disc list-inside mt-3">
+                            <li>Developed Flutter-based mobile applications using GetX state management.</li>
+                            <li>Integrated REST APIs and Firebase services into mobile applications.</li>
+                            <li>Built mobile frontend features for Logbook and PWMP applications.</li>
+                            <li>Collaborated with development teams to implement scalable application features.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education & Courses -->
+            <div>
+                <div class="flex items-center gap-3 mb-8">
+                    <i class="fas fa-graduation-cap text-2xl text-indigo-400"></i>
+                    <h3 class="text-2xl font-bold text-white">Education & Courses</h3>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Education -->
+                    <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-lg font-bold text-white">Bachelor of Informatics Engineering</h4>
+                            <span class="text-xs bg-indigo-900/50 text-indigo-300 px-2 py-1 rounded">2023</span>
+                        </div>
+                        <p class="text-indigo-400 text-sm mb-3">Lampung University</p>
+                        <ul class="text-sm text-gray-400 space-y-1 list-disc list-inside">
+                            <li>Led a team of 20+ laboratory assistants as Head of Computer Laboratory Assistants.</li>
+                            <li>Assisted and taught practical programming courses including Algorithms, Data Structures, and Web Programming.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Courses 1 -->
+                    <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-lg font-bold text-white">Android Developer Bootcamp</h4>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">2024</span>
+                        </div>
+                        <p class="text-indigo-400 text-sm mb-3">PT Phincon</p>
+                        <ul class="text-sm text-gray-400 space-y-1 list-disc list-inside">
+                            <li>Developed e-commerce and movie rental applications using Kotlin.</li>
+                            <li>Implemented modern Android architecture using Coroutine Flow, Koin, Room, and Retrofit.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Courses 2 -->
+                    <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                        <div class="flex justify-between items-start mb-2">
+                            <h4 class="text-lg font-bold text-white">MBKM Dicoding</h4>
+                            <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">2022</span>
+                        </div>
+                        <p class="text-indigo-400 text-sm mb-3">Dicoding</p>
+                        <ul class="text-sm text-gray-400 space-y-1 list-disc list-inside">
+                            <li>Learned Android application development using Kotlin.</li>
+                            <li>Implemented REST API integration in Android applications.</li>
+                            <li>Developed FloristApp as a capstone project for plant community discussion and marketplace features.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-5xl mx-auto px-5 py-16">
+        <div class="text-center mb-10">
+            <h3 class="text-3xl font-bold text-white border-b-2 border-indigo-500 pb-2 inline-block">Technical Skills</h3>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Mobile Dev -->
+            <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                <h4 class="text-indigo-400 font-bold mb-3 border-b border-gray-700 pb-2"><i class="fas fa-mobile-alt mr-2"></i>Mobile Dev</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Flutter</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Dart</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Kotlin</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Android SDK</span>
+                </div>
+            </div>
+
+            <!-- State Management -->
+            <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                <h4 class="text-indigo-400 font-bold mb-3 border-b border-gray-700 pb-2"><i class="fas fa-layer-group mr-2"></i>State Mgmt</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Provider</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">GetX</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Riverpod</span>
+                </div>
+            </div>
+
+            <!-- Backend & Integration -->
+            <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                <h4 class="text-indigo-400 font-bold mb-3 border-b border-gray-700 pb-2"><i class="fas fa-server mr-2"></i>Integration</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">REST API</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Firebase</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Payment Gateway</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Multipart Req</span>
+                </div>
+            </div>
+
+            <!-- Architecture & Tools -->
+            <div class="bg-gray-800 p-5 rounded-xl border border-gray-700">
+                <h4 class="text-indigo-400 font-bold mb-3 border-b border-gray-700 pb-2"><i class="fas fa-code-branch mr-2"></i>Architecture</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Clean Architecture</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Repository Pattern</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Modular UI</span>
+                </div>
+            </div>
+
+            <!-- Device Features -->
+            <div class="bg-gray-800 p-5 rounded-xl border border-gray-700 md:col-span-2">
+                <h4 class="text-indigo-400 font-bold mb-3 border-b border-gray-700 pb-2"><i class="fas fa-microchip mr-2"></i>Device Features</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Camera Integration</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Geolocation</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Geotagging</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Push Notification</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Image Compression</span>
+                </div>
+            </div>
+
+            <!-- Deployment & Tools -->
+            <div class="bg-gray-800 p-5 rounded-xl border border-gray-700 md:col-span-2">
+                <h4 class="text-indigo-400 font-bold mb-3 border-b border-gray-700 pb-2"><i class="fas fa-tools mr-2"></i>Tools & Deployment</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Git</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Android Studio</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">VS Code</span>
+                    <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">Postman</span>
+                    <span class="text-xs bg-indigo-900/50 text-indigo-300 border border-indigo-500/30 px-2 py-1 rounded"><i class="fab fa-google-play mr-1"></i> Play Store</span>
+                    <span class="text-xs bg-indigo-900/50 text-indigo-300 border border-indigo-500/30 px-2 py-1 rounded"><i class="fab fa-apple mr-1"></i> App Store</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Professional Projects Section -->
+    <section id="pro-projects" class="bg-gray-850 py-16 border-t border-gray-800">
+        <div class="max-w-5xl mx-auto px-5">
+            <div class="mb-10">
+                <h3 class="text-3xl font-bold text-white border-b-2 border-indigo-500 pb-2 inline-block">Featured Professional Projects</h3>
+                <p class="text-gray-400 mt-2 text-sm">Aplikasi produksi berskala besar yang saya kembangkan menggunakan Flutter.</p>
+            </div>
             
-            <!-- MyKisel -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
-                <div>
-                    <div class="flex justify-between items-start mb-3">
-                        <h4 class="text-xl font-bold text-white">MyKisel — Digital Cooperative Super App</h4>
-                        <span class="text-xs bg-indigo-900 text-indigo-300 px-2.5 py-1 rounded-full font-semibold">Super App</span>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- MyKisel -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <h4 class="text-xl font-bold text-white">MyKisel — Digital Cooperative Super App</h4>
+                            <span class="text-xs bg-indigo-900 text-indigo-300 px-2.5 py-1 rounded-full font-semibold">Super App</span>
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Firebase</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Payment Integration</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Developed a multi-service cooperative super app integrating marketplace, fintech, PPOB, transportation, investment, and cooperative financial services into a single ecosystem.</p>
+                        <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
+                            <li>Implemented payment and banking-related transaction workflows.</li>
+                            <li>Developed scalable and modular Flutter UI architecture.</li>
+                            <li>Integrated Firebase services and RESTful APIs.</li>
+                            <li>Built complex business flows for marketplace and cooperative financial services.</li>
+                        </ul>
                     </div>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Firebase</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Payment Integration</span>
+                    <div class="flex gap-3 pt-4 border-t border-gray-700">
+                        <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKisel" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
+                        <a href="https://apps.apple.com/id/app/mykisel/id1613661432" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Membangun ekosistem aplikasi koperasi multi-layanan yang mengintegrasikan marketplace, fintech, PPOB, transportasi, investasi, dan keuangan dalam satu platform.</p>
-                    <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
-                        <li>Implementasi workflow transaksi pembayaran & perbankan.</li>
-                        <li>Arsitektur UI Flutter yang modular dan scalable.</li>
-                        <li>Integrasi layanan Firebase dan RESTful API kompleks.</li>
-                    </ul>
                 </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700">
-                    <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKisel" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                    <a href="https://apps.apple.com/id/app/mykisel/id1613661432" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
-                </div>
-            </div>
 
-            <!-- Coopin -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
-                <div>
-                    <h4 class="text-xl font-bold text-white mb-3">Coopin — Cooperative Digital Platform</h4>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                <!-- iFMC -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
+                    <div>
+                        <h4 class="text-xl font-bold text-white mb-3">iFMC — HRIS & Field Operations System</h4>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Firebase</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Geolocation</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Developed an HRIS and field operations application with attendance management and operational reporting features.</p>
+                        <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
+                            <li>Attendance, leave, overtime, payslip.</li>
+                            <li>Operational expense submission.</li>
+                            <li>CME, TE, MBP, generator fuel recording.</li>
+                            <li>Geotagged photo documentation.</li>
+                        </ul>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Platform koperasi digital yang memfasilitasi transaksi antar-anggota, layanan PPOB, perdagangan produk koperasi, serta manajemen simpan pinjam.</p>
-                    <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
-                        <li>Marketplace & perdagangan antar anggota koperasi.</li>
-                        <li>Integrasi PPOB dan manajemen simpan pinjam digital.</li>
-                    </ul>
-                </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700">
-                    <a href="https://play.google.com/store/apps/details?id=com.rakit.coopin" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                </div>
-            </div>
-
-            <!-- KiselBiz -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
-                <div>
-                    <h4 class="text-xl font-bold text-white mb-3">KiselBiz — Merchant Management</h4>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                    <div class="flex gap-3 pt-4 border-t border-gray-700">
+                        <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.fmc" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
+                        <a href="https://apps.apple.com/us/app/ifmc/id6757739245" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Aplikasi mobile khusus merchant/mitra untuk mengelola katalog produk, stok inventaris, operasional harian, hingga pencairan saldo ke rekening bank.</p>
-                    <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
-                        <li>Fungsionalitas transfer bank & manajemen saldo.</li>
-                        <li>Dashboard operasional merchant yang intuitif.</li>
-                    </ul>
                 </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700">
-                    <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKiselMerchant" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                </div>
-            </div>
 
-            <!-- iFMC -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
-                <div>
-                    <h4 class="text-xl font-bold text-white mb-3">iFMC — HRIS & Field Operations System</h4>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Firebase</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Geolocation</span>
+                <!-- Harmony -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
+                    <div>
+                        <h4 class="text-xl font-bold text-white mb-3">Harmony — HRIS & Building Management</h4>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Maps Integration</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Built an HRIS application integrated with building management and transportation operational workflows.</p>
+                        <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
+                            <li>Attendance & payroll features.</li>
+                            <li>Building monitoring forms & Reimbursement reporting.</li>
+                            <li>Driver operational management & Pickup/drop-off location tracking.</li>
+                        </ul>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Sistem manajemen operasi lapangan dan HRIS untuk pelacakan kehadiran, lembur, manajemen slip gaji, pengajuan biaya operasional, serta pelaporan berbasis geotagging foto.</p>
-                    <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
-                        <li>Pencatatan data operasional (CME, TE, MBP, BBM generator).</li>
-                        <li>Dokumentasi lapangan tervalidasi koordinat lokasi (Geotagged).</li>
-                    </ul>
-                </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700">
-                    <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.fmc" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                    <a href="https://apps.apple.com/us/app/ifmc/id6757739245" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
-                </div>
-            </div>
-
-            <!-- Harmony -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
-                <div>
-                    <h4 class="text-xl font-bold text-white mb-3">Harmony — HRIS & Building Management</h4>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Maps Integration</span>
+                    <div class="flex gap-3 pt-4 border-t border-gray-700">
+                        <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.harmony" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
+                        <a href="https://apps.apple.com/us/app/harmony-ksp/id6752973089" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Aplikasi HRIS terintegrasi dengan pengelolaan gedung dan alur kerja operasional armada transportasi/driver, termasuk monitoring serta pelaporan reimbursement.</p>
-                    <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
-                        <li>Pelacakan rute pickup/drop-off driver secara real-time.</li>
-                        <li>Formulir monitoring gedung dan sistem payroll karyawan.</li>
-                    </ul>
                 </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700">
-                    <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.harmony" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                    <a href="https://apps.apple.com/us/app/harmony-ksp/id6752973089" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
-                </div>
-            </div>
 
-            <!-- Marissa -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
-                <div>
-                    <h4 class="text-xl font-bold text-white mb-3">Marissa — HRIS Application</h4>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                <!-- Marissa -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
+                    <div>
+                        <h4 class="text-xl font-bold text-white mb-3">Marissa — HRIS Application</h4>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Developed an HRIS application focused on employee administration and attendance management.</p>
+                        <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
+                            <li>Attendance management.</li>
+                            <li>Leave & overtime management.</li>
+                            <li>Payslip system.</li>
+                        </ul>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Aplikasi HRIS yang fokus menyederhanakan administrasi internal karyawan, mulai dari absensi harian, pengajuan cuti, lembur, hingga akses slip gaji digital.</p>
-                    <ul class="text-xs text-gray-400 space-y-1 list-disc list-inside mb-6">
-                        <li>Manajemen administrasi karyawan yang ringkas dan cepat.</li>
-                        <li>Sistem pelacakan cuti, lembur, dan rekapitulasi kehadiran.</li>
-                    </ul>
-                </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700">
-                    <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.marissa" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                    <a href="https://apps.apple.com/id/app/marissa/id6444144394" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
-                </div>
-            </div>
-
-            <!-- Bayaraja -->
-            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md md:col-span-2">
-                <div>
-                    <h4 class="text-xl font-bold text-white mb-3">Bayaraja — PPOB & Digital Payment Platform</h4>
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
-                        <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Payment Gateway Integration</span>
+                    <div class="flex gap-3 pt-4 border-t border-gray-700">
+                        <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.marissa" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
+                        <a href="https://apps.apple.com/id/app/marissa/id6444144394" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
                     </div>
-                    <p class="text-gray-400 text-sm mb-4">Aplikasi utilitas dan pembayaran digital PPOB komprehensif yang melayani pembelian pulsa, paket data, pembayaran tagihan PLN, PDAM, BPJS, Pajak PBB, pascabayar, hingga top-up e-wallet.</p>
                 </div>
-                <div class="flex gap-3 pt-4 border-t border-gray-700 mt-2">
-                    <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.bayaraja" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
-                    <a href="https://apps.apple.com/us/app/bayaraja/id6526470064" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
+                
+                <!-- Coopin -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
+                    <div>
+                        <h4 class="text-xl font-bold text-white mb-3">Coopin — Cooperative Digital Platform</h4>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">REST API</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Platform koperasi digital yang memfasilitasi transaksi antar-anggota, layanan PPOB, perdagangan produk koperasi, serta manajemen simpan pinjam.</p>
+                    </div>
+                    <div class="flex gap-3 pt-4 border-t border-gray-700">
+                        <a href="https://play.google.com/store/apps/details?id=com.rakit.coopin" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
+                    </div>
                 </div>
-            </div>
 
+                <!-- Bayaraja -->
+                <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 flex flex-col justify-between shadow-md">
+                    <div>
+                        <h4 class="text-xl font-bold text-white mb-3">Bayaraja — PPOB & Digital Payment</h4>
+                        <div class="flex flex-wrap gap-1.5 mb-4">
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Flutter</span>
+                            <span class="text-[11px] bg-gray-700 text-gray-300 px-2 py-0.5 rounded">Payment Gateway</span>
+                        </div>
+                        <p class="text-gray-400 text-sm mb-4">Aplikasi utilitas dan pembayaran digital PPOB komprehensif yang melayani pembelian pulsa, paket data, tagihan PLN, PDAM, BPJS, e-wallet, dll.</p>
+                    </div>
+                    <div class="flex gap-3 pt-4 border-t border-gray-700">
+                        <a href="https://play.google.com/store/apps/details?id=com.kiselindonesia.bayaraja" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-google-play"></i> Play Store</a>
+                        <a href="https://apps.apple.com/us/app/bayaraja/id6526470064" target="_blank" class="text-xs bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded flex items-center gap-1.5 transition"><i class="fab fa-apple"></i> App Store</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
     <!-- GitHub Stats Section -->
-    <section class="bg-gray-850 py-12 border-t border-b border-gray-800">
+    <section class="bg-gray-900 py-12 border-t border-gray-800">
         <div class="max-w-5xl mx-auto px-5">
             <h3 class="text-2xl font-bold mb-8 text-center">Statistik Aktivitas GitHub</h3>
             <div class="flex flex-col md:flex-row justify-center items-center gap-6">
@@ -404,70 +364,10 @@
         </div>
     </section>
 
-    <!-- Repositories Section (Public/Open Source) -->
-    <section id="github-projects" class="max-w-5xl mx-auto px-5 py-16">
-        <div class="mb-10">
-            <h3 class="text-3xl font-bold text-white border-b-2 border-indigo-500 pb-2 inline-block">Public Repositories</h3>
-            <p class="text-gray-400 mt-2 text-sm">Proyek open-source yang diambil langsung secara otomatis dari repositori publik GitHub saya.</p>
-        </div>
-        <div id="repo-list" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <p class="text-gray-400 col-span-2 text-center py-10">Memuat proyek open-source dari GitHub...</p>
-        </div>
-    </section>
-
     <!-- Footer -->
-    <footer class="bg-gray-950 py-6 text-center text-gray-500 text-sm border-t border-gray-800">
-        <p>&copy; 2026 mirfan23. Powered by Flutter Ecosystem, GitHub API & Pages.</p>
+    <footer class="bg-gray-950 py-6 text-center text-gray-500 text-sm border-t border-gray-800 mt-10">
+        <p>&copy; 2026 Muhammad Irfan Fadhila. Powered by Flutter Ecosystem, GitHub API & Pages.</p>
     </footer>
 
-    <!-- GitHub API Script -->
-    <script>
-        const username = 'mirfan23';
-
-        // Fetch User Info
-        fetch(`https://api.github.com/users/${username}`)
-            .then(res => res.json())
-            .then(data => {
-                if(data.public_repos) document.getElementById('repo-count').innerText = data.public_repos;
-                if(data.followers) document.getElementById('followers').innerText = data.followers;
-            }).catch(e => console.error(e));
-
-        // Fetch Repositories
-        fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`)
-            .then(res => res.json())
-            .then(repos => {
-                const repoList = document.getElementById('repo-list');
-                repoList.innerHTML = ''; 
-                
-                // Urutkan atau filter jika dibutuhkan
-                repos.forEach(repo => {
-                    if (repo.name.toLowerCase() !== 'mirfan23.github.io') { // skip repo portfolio utama agar tidak double
-                        const card = document.createElement('div');
-                        card.className = 'bg-gray-800 p-6 rounded-xl border border-gray-750 hover:border-indigo-500 transition duration-300 flex flex-col justify-between';
-                        
-                        card.innerHTML = `
-                            <div>
-                                <div class="flex items-center justify-between mb-3">
-                                    <span class="text-indigo-400 text-xl"><i class="far fa-folder-open"></i></span>
-                                    <span class="text-xs px-2 py-1 bg-gray-700 rounded-full text-gray-300">${repo.language || 'Code'}</span>
-                                </div>
-                                <h4 class="text-xl font-bold text-white mb-2 hover:text-indigo-400"><a href="${repo.html_url}" target="_blank">${repo.name}</a></h4>
-                                <p class="text-gray-400 text-sm mb-4 line-clamp-2">${repo.description || 'Tidak ada deskripsi untuk repositori ini.'}</p>
-                            </div>
-                            <div class="flex items-center gap-4 text-xs text-gray-400 pt-4 border-t border-gray-750">
-                                <span><i class="far fa-star mr-1"></i>${repo.stargazers_count}</span>
-                                <span><i class="fas fa-code-branch mr-1"></i>${repo.forks_count}</span>
-                            </div>
-                        `;
-                        repoList.appendChild(card);
-                    }
-                });
-                if(repoList.innerHTML === '') {
-                    repoList.innerHTML = '<p class="text-gray-400 text-center col-span-2">Tidak ada repositori publik lain untuk ditampilkan.</p>';
-                }
-            }).catch(err => {
-                document.getElementById('repo-list').innerHTML = '<p class="text-red-400 text-center col-span-2">Gagal memuat proyek dari GitHub.</p>';
-            });
-    </script>
 </body>
 </html>
