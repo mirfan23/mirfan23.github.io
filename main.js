@@ -18,7 +18,9 @@
     const linkButtons = Object.entries(project.links)
       .map(([kind, url]) => {
         const label = kind === "playstore" ? "Play Store" : "App Store";
-        return `<a href="${url}" target="_blank" rel="noopener" class="store-link store-link--${kind}">${storeIcon(kind)}<span>${label}</span></a>`;
+        return `<a href="${url}" target="_blank" rel="noopener" class="store-link store-link--${kind}">${storeIcon(
+          kind
+        )}<span>${label}</span></a>`;
       })
       .join("");
 
@@ -70,15 +72,17 @@
     toggle.addEventListener("click", () => {
       const isOpen = toggle.getAttribute("aria-expanded") === "true";
       // close any other open row
-      document.querySelectorAll(".ledger-toggle[aria-expanded='true']").forEach((t) => {
-        if (t !== toggle) {
-          t.setAttribute("aria-expanded", "false");
-          const id = t.getAttribute("aria-controls");
-          const d = document.getElementById(id);
-          if (d) d.hidden = true;
-          t.closest(".ledger-row").classList.remove("is-open");
-        }
-      });
+      document
+        .querySelectorAll(".ledger-toggle[aria-expanded='true']")
+        .forEach((t) => {
+          if (t !== toggle) {
+            t.setAttribute("aria-expanded", "false");
+            const id = t.getAttribute("aria-controls");
+            const d = document.getElementById(id);
+            if (d) d.hidden = true;
+            t.closest(".ledger-row").classList.remove("is-open");
+          }
+        });
       toggle.setAttribute("aria-expanded", String(!isOpen));
       detail.hidden = isOpen;
       row.classList.toggle("is-open", !isOpen);
@@ -98,13 +102,17 @@
 
   // Header shadow on scroll
   const header = document.querySelector(".site-header");
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 8) {
-      header.classList.add("is-scrolled");
-    } else {
-      header.classList.remove("is-scrolled");
-    }
-  }, { passive: true });
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (window.scrollY > 8) {
+        header.classList.add("is-scrolled");
+      } else {
+        header.classList.remove("is-scrolled");
+      }
+    },
+    { passive: true }
+  );
 
   // Smooth scroll for in-page nav (respects reduced motion via CSS scroll-behavior fallback)
   document.querySelectorAll('a[href^="#"]').forEach((link) => {

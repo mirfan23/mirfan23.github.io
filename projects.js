@@ -12,13 +12,14 @@ const PROJECTS = [
       "Implemented payment and banking-related transaction workflows",
       "Built scalable, modular Flutter UI architecture for multi-feature apps",
       "Integrated Firebase services and RESTful APIs",
-      "Built complex business flows for marketplace and cooperative finance"
+      "Built complex business flows for marketplace and cooperative finance",
     ],
     stack: ["Flutter", "REST API", "Firebase", "Payments"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKisel",
-      appstore: "https://apps.apple.com/id/app/mykisel/id1613661432"
-    }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKisel",
+      appstore: "https://apps.apple.com/id/app/mykisel/id1613661432",
+    },
   },
   {
     id: "coopin",
@@ -30,12 +31,13 @@ const PROJECTS = [
       "Marketplace between members",
       "Cooperative product sales",
       "PPOB integration",
-      "Savings & loan features"
+      "Savings & loan features",
     ],
     stack: ["Flutter", "REST API"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.rakit.coopin"
-    }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.rakit.coopin",
+    },
   },
   {
     id: "kiselbiz",
@@ -47,12 +49,13 @@ const PROJECTS = [
       "Product management",
       "Inventory handling",
       "Bank transfer functionality",
-      "Merchant operational dashboard"
+      "Merchant operational dashboard",
     ],
     stack: ["Flutter", "REST API"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKiselMerchant"
-    }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiselindonesia.MyKiselMerchant",
+    },
   },
   {
     id: "ifmc",
@@ -64,13 +67,14 @@ const PROJECTS = [
       "Attendance, leave, overtime, payslip",
       "Operational expense submission",
       "CME, TE, MBP, generator fuel recording",
-      "Geotagged photo documentation"
+      "Geotagged photo documentation",
     ],
     stack: ["Flutter", "Firebase", "Geolocation"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.kiselindonesia.fmc",
-      appstore: "https://apps.apple.com/us/app/ifmc/id6757739245"
-    }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiselindonesia.fmc",
+      appstore: "https://apps.apple.com/us/app/ifmc/id6757739245",
+    },
   },
   {
     id: "harmony",
@@ -83,13 +87,14 @@ const PROJECTS = [
       "Building monitoring forms",
       "Driver operational management",
       "Pickup/drop-off location tracking",
-      "Reimbursement reporting"
+      "Reimbursement reporting",
     ],
     stack: ["Flutter", "REST API", "Maps"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.kiselindonesia.harmony",
-      appstore: "https://apps.apple.com/us/app/harmony-ksp/id6752973089"
-    }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiselindonesia.harmony",
+      appstore: "https://apps.apple.com/us/app/harmony-ksp/id6752973089",
+    },
   },
   {
     id: "marissa",
@@ -100,13 +105,14 @@ const PROJECTS = [
     contributions: [
       "Attendance management",
       "Leave & overtime management",
-      "Payslip system"
+      "Payslip system",
     ],
     stack: ["Flutter", "REST API"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.kiselindonesia.marissa",
-      appstore: "https://apps.apple.com/id/app/marissa/id6444144394"
-    }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiselindonesia.marissa",
+      appstore: "https://apps.apple.com/id/app/marissa/id6444144394",
+    },
   },
   {
     id: "bayaraja",
@@ -120,12 +126,13 @@ const PROJECTS = [
       "BPJS payment",
       "E-wallet top-up",
       "Postpaid bill payment",
-      "PBB payment"
+      "PBB payment",
     ],
     stack: ["Flutter", "Payment Gateway"],
     links: {
-      playstore: "https://play.google.com/store/apps/details?id=com.kiselindonesia.bayaraja",
-      appstore: "https://apps.apple.com/us/app/bayaraja/id6526470064"
-    }
-  }
+      playstore:
+        "https://play.google.com/store/apps/details?id=com.kiselindonesia.bayaraja",
+      appstore: "https://apps.apple.com/us/app/bayaraja/id6526470064",
+    },
+  },
 ];
