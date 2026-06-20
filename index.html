@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,7 +9,7 @@
       content="Flutter Developer building cooperative fintech, HRIS, and payment platforms shipped to real users across Indonesia."
     />
 
-    <!-- Open Graph -->
+    Open Graph
     <meta
       property="og:title"
       content="Muhammad Irfan Fadhila — Flutter Developer"
@@ -50,7 +50,7 @@
     </header>
 
     <main id="main">
-      <!-- HERO -->
+      HERO
       <section class="hero">
         <div class="hero-inner">
           <p class="eyebrow">
@@ -88,7 +88,7 @@
         </div>
       </section>
 
-      <!-- LEDGER / WORK -->
+      LEDGER / WORK
       <section class="ledger-section" id="work">
         <div class="section-head">
           <p class="section-kicker">01 — Shipped Work</p>
@@ -108,12 +108,12 @@
             <span class="col-status">Availability</span>
           </div>
 
-          <!-- Project rows injected here -->
+          Project rows injected here
           <div id="ledger-body"></div>
         </div>
       </section>
 
-      <!-- ABOUT -->
+      ABOUT
       <section class="about-section" id="about">
         <div class="about-grid">
           <div class="about-copy">
@@ -156,7 +156,7 @@
         </div>
       </section>
 
-      <!-- CONTACT -->
+      CONTACT
       <section class="contact-section" id="contact">
         <div class="contact-inner">
           <p class="section-kicker">03 — Contact</p>
@@ -196,4 +196,108 @@
     <script src="js/projects.js"></script>
     <script src="js/main.js"></script>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M. Irfan - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <nav class="p-5 max-w-5xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold tracking-wider text-indigo-400">MIRFAN23.</h1>
+        <a href="https://github.com/mirfan23" target="_blank" class="text-2xl hover:text-indigo-400 transition"><i class="fab fa-github"></i></a>
+    </nav>
+
+    <section class="max-w-5xl mx-auto px-5 py-20 flex flex-col md:flex-row items-center justify-between gap-10">
+        <div class="space-y-4 max-w-xl">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-white">Halo, Saya <span class="text-indigo-400">M. Irfan</span></h2>
+            <p class="text-gray-400 text-lg">Selamat datang di portofolio digital saya. Di sini Anda dapat melihat berbagai proyek, kontribusi kode, dan aktivitas pengembangan software yang saya lakukan langsung dari GitHub.</p>
+            <div class="pt-4">
+                <a href="#projects" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-lg transition dynamic-shadow">Lihat Proyek</a>
+            </div>
+        </div>
+        <div id="github-profile" class="bg-gray-800 p-6 rounded-2xl border border-gray-700 text-center w-full md:w-80 shadow-xl">
+            <img id="avatar" class="w-32 h-32 rounded-full mx-auto border-4 border-indigo-500 mb-4" src="https://github.com/mirfan23.png" alt="Avatar">
+            <h3 class="text-xl font-bold" id="name">mirfan23</h3>
+            <p class="text-gray-400 text-sm mb-4" id="bio">GitHub Developer</p>
+            <div class="grid grid-cols-2 gap-2 text-sm bg-gray-900 p-3 rounded-lg">
+                <div><span class="block font-bold text-indigo-400" id="repo-count">0</span> Repositori</div>
+                <div><span class="block font-bold text-indigo-400" id="followers">0</span> Followers</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-850 py-12 border-t border-b border-gray-800">
+        <div class="max-w-5xl mx-auto px-5">
+            <h3 class="text-2xl font-bold mb-8 text-center">Aktivitas GitHub</h3>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <img class="w-full md:w-auto" src="https://github-readme-stats.vercel.app/api?username=mirfan23&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats">
+                <img class="w-full md:w-auto" src="https://github-readme-top-langs.vercel.app/api/?username=mirfan23&layout=compact&theme=tokyonight" alt="Top Languages">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-5xl mx-auto px-5 py-20">
+        <h3 class="text-3xl font-bold mb-10 text-white border-b-2 border-indigo-500 pb-2 inline-block">Proyek Pilihan</h3>
+        <div id="repo-list" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <p class="text-gray-400 col-span-2 text-center py-10">Memuat proyek dari GitHub...</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 py-6 text-center text-gray-500 text-sm border-t border-gray-850">
+        <p>&copy; 2026 mirfan23. Powered by GitHub API & Pages.</p>
+    </footer>
+
+    <script>
+        const username = 'mirfan23';
+
+        // Fetch User Info
+        fetch(`https://api.github.com/users/${username}`)
+            .then(res => res.json())
+            .then(data => {
+                if(data.name) document.getElementById('name').innerText = data.name;
+                if(data.bio) document.getElementById('bio').innerText = data.bio;
+                document.getElementById('repo-count').innerText = data.public_repos;
+                document.getElementById('followers').innerText = data.followers;
+            });
+
+        // Fetch Repositories
+        fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`)
+            .then(res => res.json())
+            .then(repos => {
+                const repoList = document.getElementById('repo-list');
+                repoList.innerHTML = ''; // Clear loading text
+                
+                // Filter out forks if you want original projects only
+                repos.forEach(repo => {
+                    const card = document.createElement('div');
+                    card.className = 'bg-gray-800 p-6 rounded-xl border border-gray-750 hover:border-indigo-500 transition duration-300 flex flex-col justify-between';
+                    
+                    card.innerHTML = `
+                        <div>
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-indigo-400 text-xl"><i class="far fa-folder-open"></i></span>
+                                <span class="text-xs px-2 py-1 bg-gray-700 rounded-full text-gray-300">${repo.language || 'Code'}</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-white mb-2 hover:text-indigo-400"><a href="${repo.html_url}" target="_blank">${repo.name}</a></h4>
+                            <p class="text-gray-400 text-sm mb-4 line-clamp-2">${repo.description || 'Tidak ada deskripsi untuk repositori ini.'}</p>
+                        </div>
+                        <div class="flex items-center gap-4 text-xs text-gray-400 pt-4 border-t border-gray-750">
+                            <span><i class="far fa-star mr-1"></i>${repo.stargazers_count}</span>
+                            <span><i class="fas fa-code-branch mr-1"></i>${repo.forks_count}</span>
+                        </div>
+                    `;
+                    repoList.appendChild(card);
+                });
+            }).catch(err => {
+                document.getElementById('repo-list').innerHTML = '<p class="text-red-400 text-center col-span-2">Gagal memuat proyek dari GitHub.</p>';
+            });
+    </script>
+</body>
 </html>
