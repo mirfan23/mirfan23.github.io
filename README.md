@@ -1,74 +1,42 @@
-# Portfolio — Muhammad Irfan Fadhila
+# 🚀 Personal Portfolio - Muhammad Irfan Fadhila
 
-A clean, minimal portfolio site built around a "ledger" concept — each shipped
-app is presented as a passbook entry, fitting the cooperative-fintech theme of
-the work itself.
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fmirfan23.github.io&up_message=Online&down_message=Offline&style=flat-square&label=Live%20Demo)](https://mirfan23.github.io)
+[![GitHub Pages](https://img.shields.io/badge/Deployed_on-GitHub_Pages-blue?style=flat-square&logo=github)](https://pages.github.com/)
 
-## Structure
+Hello! Welcome to the repository of my personal portfolio website. I am **Muhammad Irfan Fadhila**, a **Flutter Mobile Developer** based in Indonesia.
 
-```
-index.html        Main page (hero, ledger, about, contact)
-css/style.css      All styling — design tokens at the top of the file
-js/projects.js     Project data — edit this to add/update/remove apps
-js/main.js         Renders the ledger from projects.js, handles interactions
-```
+> **Live Website:** [https://mirfan23.github.io](https://mirfan23.github.io)
 
-## Editing your projects
+---
 
-Open `js/projects.js`. Each entry in the `PROJECTS` array looks like this:
+## 👨‍💻 About Me
 
-```js
-{
-  id: "mykisel",                 // unique, no spaces
-  name: "MyKisel",
-  tag: "Digital Cooperative Super App",
-  description: "...",
-  contributions: ["...", "..."], // bullet points
-  stack: ["Flutter", "REST API"],
-  links: {
-    playstore: "https://...",
-    appstore: "https://..."      // optional — omit if no iOS app
-  }
-}
-```
+Mobile Developer with hands-on experience in building enterprise-scale Flutter applications, including fintech ecosystems, PPOB platforms, HRIS systems, and digital cooperative super apps. Skilled in REST API integration, Firebase services, state management, payment workflows, geolocation systems, and scalable mobile architecture. Experienced in developing complex business workflows and delivering performant, user-focused mobile applications[cite: 1].
 
-Add a new object to the array to add a new project. The page re-renders
-automatically — no other file needs to change.
+## ✨ Features
 
-## Deploying to GitHub Pages (mirfan23.github.io)
+This portfolio is a single-page application (SPA) designed to be lightweight, fast, and directly integrated with my GitHub activity.
 
-To publish at `https://mirfan23.github.io`, the repository itself must be
-named exactly `mirfan23.github.io`. Steps:
+*   **Interactive Resume:** Displays my career history, education, and technical skills clearly.
+*   **Professional Projects Showcase:** A curated list of enterprise-scale applications I've developed (Flutter, REST API, Firebase) complete with App Store and Play Store links.
+*   **Live GitHub Stats:** Dynamically fetches and displays my current GitHub statistics and top languages using `github-readme-stats`.
+*   **Fully Responsive:** Optimized UI for mobile, tablet, and desktop viewing using Tailwind CSS.
+*   **Dark Theme Design:** A modern, developer-friendly interface.
 
-1. Create a new repository on GitHub named **`mirfan23.github.io`**
-   (this exact name is what makes GitHub serve it at the root domain).
-2. Push these files to the repository's `main` branch:
+## 🛠️ Tech Stack
 
-   ```bash
-   cd portfolio
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/mirfan23/mirfan23.github.io.git
-   git push -u origin main
-   ```
+This portfolio was built using simple yet powerful modern web technologies:
 
-3. In the repo, go to **Settings → Pages**.
-4. Under **Source**, select **Deploy from a branch**, branch `main`, folder `/ (root)`.
-5. Save. The site goes live at `https://mirfan23.github.io` within a minute or two.
+*   **HTML5** for semantic structure.
+*   **Tailwind CSS (CDN)** for rapid, responsive styling without writing custom CSS.
+*   **JavaScript (Vanilla)** for fetching data from the GitHub REST API.
+*   **FontAwesome** for scalable vector icons.
+*   **GitHub Pages** for free, reliable, and fast hosting.
 
-If you'd rather keep this as a project repo (not the special username repo),
-name it anything you like and enable Pages the same way — it'll be served at
-`https://mirfan23.github.io/<repo-name>/` instead. In that case, all the
-asset paths here are already relative, so no changes are needed.
+## 🚀 Running Locally
 
-## Local preview
+If you want to clone or test this repository locally, it requires no build tools or package managers.
 
-No build step required. Either open `index.html` directly in a browser, or
-serve it locally:
-
+1. Clone this repository:
 ```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
+   git clone [https://github.com/mirfan23/mirfan23.github.io.git](https://github.com/mirfan23/mirfan23.github.io.git)
